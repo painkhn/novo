@@ -3,3 +3,6 @@
 
 **Редактирование**
 - Редатирование SCSS `sass --watch "src/styles.scss" "src/css/styles.css"`
+
+**Оригинал**
+- <a>https://app.novo.co/login</a>
