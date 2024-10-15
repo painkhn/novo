@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+
+    &[type=submit],
+    &[type=button] {
+        cursor: pointer;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../../public/bg.svg) no-repeat;
+    background-size: cover;
+}
